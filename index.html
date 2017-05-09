@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>来电科技-自助租借充电宝</title>
+    <link rel="stylesheet" href="master.css">
+</head>
+
+<body>
+
+	<div class="navigation">
+	    <img class="navigation-logo" src="images/logo.jpg">
+	    <div class="navigation-menu-bg">
+	        <a class="navigation-menu-item" href="/">
+	            <div>首页</div>
+	            <div class="navigation-menu-line"></div>
+	        </a>
+
+	        <a class="navigation-menu-item" href="applyJoin.html">
+	            <div>申请加盟</div>
+	        </a>
+
+	        <a class="navigation-menu-item" href="productIntroduction.html">
+	            <div>产品介绍</div>
+	        </a>
+
+	        <a class="navigation-menu-item" href="aboutUs.html">
+	            <div>关于我们</div>
+	        </a>
+
+	        <a class="navigation-menu-item" onclick="joinUsShow()">
+	            <div>申请合作</div>
+	        </a>
+	    </div>
+	</div>
+
+	<div class="home-page-content" data-page =0>
+		<div id="a-0" class="home-banner-page" data-imgs=2 data-active=0>
+			  <div class="slide">
+				  <img src="images/banner0.jpg" alt="banner0.jpg">
+				  <img src="images/banner1.jpg" alt="banner1.jpg">
+			  </div>
+			  <div class="button">
+				  <span class="next vertical-center left"  data-next="-1">＜</span>
+				  <span class="next vertical-center right" data-next= "1">＞</span>
+			  </div>
+			  <div class="index">
+				  <span id='id-index-0'class="on"></span>
+				  <span id='id-index-1'></span>
+			  </div>
+		</div>
+	    <div id="a-1"class="swiper-content-shop-page" >
+            <div class="shop-text">
+                <img src="images/shop.jpg" alt="">
+            </div>
+	        <div class="shop-swiper-container">
+                <div class="shop-container-slide" data-imgs=4 data-active=0>
+                      <div class="shop-slide">
+                          <img src="images/shop1.jpg" alt="">
+                          <img src="images/shop2.jpg" alt="">
+                          <img src="images/shop3.jpg" alt="">
+                          <img src="images/shop4.jpg" alt="">
+                      </div>
+                      <div class="shop-button">
+                          <span class="shop-next vertical-center left"  data-next="-1">＜</span>
+                          <span class="shop-next vertical-center right" data-next= "1">＞</span>
+                      </div>
+                </div>
+	        </div>
+	    </div>
+	    <div id="a-2"class="swiper-content-media-page">
+            <div class="content-text">
+                <img src="images/content.jpg" alt="">
+            </div>
+            <div class="content-swiper-container">
+                <div class="content-container-slide" data-imgs=4 data-active=0>
+                      <div class="content-slide">
+                          <img src="images/content1.jpg" alt="">
+                          <img src="images/content2.jpg" alt="">
+                          <img src="images/content3.jpg" alt="">
+                          <img src="images/content4.jpg" alt="">
+                      </div>
+                      <div class="content-button">
+                          <span class="content-next vertical-center left"  data-next="-1">＜</span>
+                          <span class="content-next vertical-center right" data-next= "1">＞</span>
+                      </div>
+                </div>
+            </div>
+	    </div>
+		<div id="a-3"class="footer-page">
+            <div class="footer-introduce">
+                <img src="images/footer.jpg" alt="">
+            </div>
+            <div class="footer-over">
+                <img src="images/footer0.jpg" alt="">
+            </div>
+		</div>
+	</div>
+	<div class="nextPage">
+		︾
+	</div>
+
+    <script src="master.js"></script>
+
+</body>
+
+</html>
